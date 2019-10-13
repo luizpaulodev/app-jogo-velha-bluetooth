@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:MyApp="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/zerarPlacares"
+        android:orderInCategory="100"
+        MyApp:showAsAction="always"
+        android:title="@string/zerar"/>
+
+</menu>

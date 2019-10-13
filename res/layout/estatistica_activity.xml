@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_gradient"
+    android:orientation="vertical"
+    android:padding="10dp" 
+    android:scrollbars="none">
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/placares"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:maxLines="1"
+            android:tag="texto1"
+            android:text="@string/player_vs_android"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFF" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:stretchColumns="1" >
+
+            <TableRow>
+
+                <TextView
+                    style="@style/placares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="" />
+
+                <TextView
+                    style="@style/placares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="right"
+                    android:text="@string/facil" />
+
+                <TextView
+                    style="@style/placares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="right"
+                    android:text="@string/medio" />
+
+                <TextView
+                    style="@style/placares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="right"
+                    android:text="@string/dificil" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/placares"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:tag="texto2"
+                    android:text="@string/voce"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/azul_claro" />
+
+                <TextView
+                    android:id="@+id/vocePlayerAndroidFacil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:tag="campo101"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/vocePlayerAndroidMedio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:tag="campo201"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/vocePlayerAndroidDificil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:tag="campo301"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/placares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:tag="texto3"
+                    android:text="@string/android"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/red" />
+
+                <TextView
+                    android:id="@+id/androidPlayerAndroidFacil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:tag="campo102"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/androidPlayerAndroidMedio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:tag="campo202"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/androidPlayerAndroidDificil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:tag="campo302"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:tag="texto4"
+                    android:text="@string/empate"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/totalPlayerAndroidFacil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:tag="campo103"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/totalPlayerAndroidMedio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:tag="campo203"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/totalPlayerAndroidDificil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:tag="campo303"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/placares"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:tag="texto5"
+            android:text="@string/player_vs_player"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFF" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:stretchColumns="1" >
+
+            <TableRow>
+
+                <TextView
+                    style="@style/placares"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:tag="texto6"
+                    android:text="@string/jogador_x"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/azul_claro" />
+
+                <TextView
+                    android:id="@+id/jogadorXPlayerPlayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:tag="campo401"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/placares"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:tag="texto7"
+                    android:text="@string/jogador_o"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/red" />
+
+                <TextView
+                    android:id="@+id/jogadorOPlayerPlayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:tag="campo402"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:tag="texto8"
+                    android:text="@string/empate"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/totalPlayerPlayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:tag="campo403"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/placares"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:tag="texto12"
+            android:text="@string/via_bluetooth"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFF" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:stretchColumns="1" >
+
+            <TableRow>
+
+                <TextView
+                    style="@style/placares"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:tag="texto9"
+                    android:text="@string/vitorias"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/azul_claro" />
+
+                <TextView
+                    android:id="@+id/jogadorXBluetooth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:tag="campo501"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/placares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:tag="texto10"
+                    android:text="@string/derrotas"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/red" />
+
+                <TextView
+                    android:id="@+id/jogadorOBluetooth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:tag="campo502"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:tag="texto11"
+                    android:text="@string/empate"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/totalBluetooth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:tag="campo503"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

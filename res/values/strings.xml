@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="android">Android</string>
+    <string name="app_name">Jogo da Velha Bluetooth</string>
+    <string name="ativar_bluetooth">Ativar Bluetooth</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="conectar">Conectar</string>
+    <string name="derrotas">Derrotas</string>
+    <string name="dificil">Dificil</string>
+    <string name="dispositivos">Dispositivos</string>
+    <string name="empate">Empate</string>
+    <string name="facil">Fácil</string>
+    <string name="ficar_visivel">Ficar Visivel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="idAnuncio">ca-app-pub-0008120846789928/4511338705</string>
+    <string name="instrucoes">Instruções</string>
+    <string name="jogador_o">Jogador O</string>
+    <string name="jogador_x">Jogador X</string>
+    <string name="jogar">Jogar</string>
+    <string name="jogo_da_velha">Jogo da Velha</string>
+    <string name="medio">Médio</string>
+    <string name="mensagemCompartilhar">Confira \"Jogo da Velha Bluetooth\" - https://play.google.com/store/apps/details?id=com.luizpaulo.jogovelha</string>
+    <string name="nivel_dificil">16</string>
+    <string name="nivel_facil">8</string>
+    <string name="nivel_medio">12</string>
+    <string name="novo_jogo">Novo Jogo</string>
+    <string name="opcoes">Opções</string>
+    <string name="player_vs_android">Player vs Android</string>
+    <string name="player_vs_player">Player vs Player</string>
+    <string name="procurar">Procurar</string>
+    <string name="sair">Sair</string>
+    <string name="title_activity_jogo_bluetooth">JogoBluetoothActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_menu_jogar">MenuJogarActivity</string>
+    <string name="via_bluetooth">Via Bluetooth</string>
+    <string name="vitorias">Vitórias</string>
+    <string name="voce">Você</string>
+    <string name="voltar">Voltar</string>
+    <string name="zerar">Zerar</string>
+    <string name="zero">0</string>
+    <string name="sua_vez">Sua Vez</string>
+    <string name="vez_android">Vez Android</string>
+    <string name="voce_comeca">Você começa</string>
+    <string name="android_comeca">Android começa</string>
+    <string name="buscando_aparelhos">Buscando aparelhos&#8230;</string>
+    <string name="encontrou">Encontrou:&#160;</string>
+    <string name="busca_finalizada">Busca finalizada. %1$s devices encontrados</string>
+    <string name="android_venceu">Android Venceu!</string>
+    <string name="voce_venceu">Você Venceu!</string>
+    <string name="empate_jogo">Empate!</string>
+    <string name="ok">OK</string>
+    <string name="selecione_usuario">Selecione um usuario&#8230;</string>
+    <string name="selecione">Selecione</string>
+    <string name="conectando">Conectando&#8230;</string>
+    <string name="bluetooth_ativado">O Bluetooth não foi ativado!</string>
+    <string name="erro_servidor">Servidor não encontrado! Tente novamente!</string>
+    <string name="conectado">Conectado:&#160;</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="aguardando_conexao">Aguardando conexão&#8230;</string>
+    <string name="comeca">&#160;começa.</string>
+    <string name="jogador_o_ganhou">Jogador O Ganhou!</string>
+    <string name="jogador_x_ganhou">Jogador X Ganhou!</string>
+    <string name="proximo">Próximo:&#160;</string>
+    <string name="dispositivos_bluetooth">"Dispositivos Bluetooth"</string>
+    <string name="bluetooth_nao_disponivel">Bluetooth não disponível neste aparelho.</string>
+    <string name="bluetooth_nao_ativado">Bluetooth não foi ativado.</string>
+    <string name="informacao_modo_bluetooth_cliente">Para iniciar o jogo você deve ir no Menu/Dispositivos  e selecionar o Jogador a quem deverá se conectar. Após isso basta clicar em Conectar.</string>
+    <string name="informacoes_modo_bluetooth">"Bluetooth Jogo da Velha\n\n"
+							Versão: %1$s\n\n
+							Modo Player vs Player:\n
+							Neste modo é possivel ter dois jogadores, com inicio alternados e um contadador de vitórias.\n\n
+							Modo Via Bluetooth:\n
+							Neste Modo um Usuário ativa o jogo em Jogador X, este será responsavel pela conexão dos dois dispositivos.\n
+							Enquanto o outro usuário, ativa o jogo em Jogador O, que conectará no dispositivo como Jogador X.</string>
+    <string name="informacoes">Informações</string>
+    <string name="bluetooth_ligado">O Bluetooth está ligado!</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="pontuacao_zerada">Pontuação zerada</string>
+    <string name="pareado">Pareado</string>
+    <string name="informacaoes_dispostivos_bluetooth">Nome dispositivo:\n%1$s\n\nEndereço:\n"%2$s\n\nStatus:\n"%3$s</string>
+
+</resources>

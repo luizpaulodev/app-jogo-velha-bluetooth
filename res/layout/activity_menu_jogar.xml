@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_gradient"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    tools:context="com.luizpaulo.jogovelha.MenuJogarActivity" >
+
+    <TextView
+        android:id="@+id/txtJogoVelha"
+        style="@style/placares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/jogo_da_velha"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/txtJogoVelhaBluetooth"
+        style="@style/placares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/bluetooth"
+        android:textSize="30dp" />
+
+    <TextView
+        style="@style/placares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:tag="texto1"
+        android:text="@string/player_vs_android"
+        android:textSize="20dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="jogar"
+                android:tag="texto2"
+                android:text="@string/facil"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="jogar"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:tag="texto3"
+                android:text="@string/medio"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="jogar"
+                android:tag="texto4"
+                android:text="@string/dificil"
+                android:textSize="20dp" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        style="@style/placares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:tag="texto10"
+        android:text="@string/player_vs_player"
+        android:textSize="20dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="jogar"
+                android:tag="texto5"
+                android:text="@string/jogador_x"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="jogar"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:tag="texto6"
+                android:text="@string/jogador_o"
+                android:textSize="20dp" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        style="@style/placares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:tag="texto7"
+        android:text="@string/via_bluetooth"
+        android:textSize="20dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="jogar"
+                android:tag="texto8"
+                android:text="@string/jogador_x"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="jogar"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:tag="texto9"
+                android:text="@string/jogador_o"
+                android:textSize="20dp" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal" >
+
+        <Button
+            style="@style/placares"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@layout/layout_botao"
+            android:onClick="voltar"
+            android:text="@string/voltar" />
+
+        <Button
+            style="@style/placares"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="15dp"
+            android:background="@layout/layout_botao"
+            android:onClick="iniciarJogo"
+            android:text="@string/jogar" />
+    </LinearLayout>
+
+</LinearLayout>

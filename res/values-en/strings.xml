@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="android">Android</string>
+    <string name="app_name">Tic Tac Toe Bluetooth</string>
+    <string name="ativar_bluetooth">Activate Bluetooth</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="compartilhar">Share</string>
+    <string name="conectar">Connect</string>
+    <string name="derrotas">Defeats</string>
+    <string name="dificil">Hard</string>
+    <string name="dispositivos">Devices</string>
+    <string name="empate">Draw</string>
+    <string name="facil">Easy</string>
+    <string name="ficar_visivel">Stay Visible</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="idAnuncio">ca-app-pub-0008120846789928/4511338705</string>
+    <string name="instrucoes">Directions</string>
+    <string name="jogador_o">Kicker O</string>
+    <string name="jogador_x">Kicker X</string>
+    <string name="jogar">Play</string>
+    <string name="jogo_da_velha">Tic Tac Toe</string>
+    <string name="medio">Medium</string>
+    <string name="mensagemCompartilhar">Check out \"Tic Tac Toe Bluetooth\" - https://play.google.com/store/apps/details?id=com.luizpaulo.jogovelha</string>
+    <string name="novo_jogo">New Game</string>
+    <string name="opcoes">Options</string>
+    <string name="player_vs_android">Player vs Android</string>
+    <string name="player_vs_player">Player vs Player</string>
+    <string name="procurar">Search</string>
+    <string name="sair">Exit</string>
+    <string name="title_activity_jogo_bluetooth">JogoBluetoothActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_menu_jogar">MenuJogarActivity</string>
+    <string name="via_bluetooth">Bluetooth</string>
+    <string name="vitorias">Winning</string>
+    <string name="voce">You</string>
+    <string name="voltar">Back</string>
+    <string name="zerar">Clear</string>
+    <string name="zero">0</string>
+    <string name="sua_vez">Your Turn</string>
+    <string name="vez_android">Time Android</string>
+    <string name="voce_comeca">You Get</string>
+    <string name="android_comeca">Android begins</string>
+    <string name="buscando_aparelhos">Searching devices&#8230;</string>
+    <string name="encontrou">Found:&#160;</string>
+    <string name="busca_finalizada">Search completed. %1$s found devices</string>
+    <string name="android_venceu">Android Win!</string>
+    <string name="voce_venceu">You Win!</string>
+    <string name="empate_jogo">Draw!</string>
+    <string name="ok">OK</string>
+    <string name="selecione_usuario">Select user&#8230;</string>
+    <string name="conectando">Connecting&#8230;</string>
+    <string name="bluetooth_ativado">Bluetooth is not activated!</string>
+    <string name="erro_servidor">Kicker X not found! Try Again!</string>
+    <string name="conectado">Connected:&#160;</string>
+    <string name="iniciar">Start</string>
+    <string name="aguardando_conexao">Waiting for connection&#8230;</string>
+    <string name="comeca">&#160;begins.</string>
+    <string name="jogador_o_ganhou">O Win!</string>
+    <string name="jogador_x_ganhou">X Win!</string>
+    <string name="proximo">Next:&#160;</string>
+    <string name="dispositivos_bluetooth">"Bluetooth Devices"</string>
+    <string name="bluetooth_nao_disponivel">Bluetooth not available in this handset.</string>
+    <string name="bluetooth_nao_ativado">Bluetooth was not enabled.</string>
+    <string name="informacao_modo_bluetooth_cliente">To start the game you should go in the Menu / Devices and select the player who should connect . After that just click Connect.</string>
+    <string name="informacoes_modo_bluetooth">Bluetooth Tic Tac Toe \n\n
+			Version: %1$s \n \n
+			Player vs Player mode:\n
+			In this mode it is possible to have two players with alternate beginning and an accountant wins. \n\n
+			Via Bluetooth mode: \n
+			In this mode one active User Server mode in the game , it will be responsible for the connection of two devices.\n
+			While another user activates the game in Client mode, which connect the device Server.</string>
+    <string name="informacoes">Information</string>
+    <string name="bluetooth_ligado">Bluetooth is switched on!</string>
+    <string name="selecione">Select</string>
+    <string name="cancelar">Cancel</string>
+    <string name="pontuacao_zerada">Clean</string>
+    <string name="pareado">Paired</string>
+    <string name="informacaoes_dispostivos_bluetooth">Name Device:\n%1$s\n\nAddress:\n"%2$s\n\nStatus:\n"%3$s</string>
+
+</resources>

@@ -1,0 +1,314 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_gradient" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/jogador1"
+                    style="@style/placares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+                    android:text="@string/jogador_x" />
+
+                <TextView
+                    style="@style/placares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+                    android:text="@string/empate" />
+
+                <TextView
+                    android:id="@+id/jogador2"
+                    style="@style/placares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/jogador_o" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/plcX"
+                    style="@style/placares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+                    android:tag="placarX"
+                    android:text="@string/zero" />
+
+                <TextView
+                    android:id="@+id/plcE"
+                    style="@style/placares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+                    android:tag="placarEmpate"
+                    android:text="@string/zero" />
+
+                <TextView
+                    android:id="@+id/plcO"
+                    style="@style/placares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:tag="placarO"
+                    android:text="@string/zero" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="1dp" >
+
+            <TableRow>
+
+                <Button
+                    style="@style/placares"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@null"
+                    android:onClick="clickQuadrado"
+                    android:tag="quadrado1"
+                    android:textColor="#FFF"
+                    android:textSize="65sp"  />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000" />
+
+                <Button
+                    style="@style/placares"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@null"
+                    android:onClick="clickQuadrado"
+                    android:tag="quadrado2"
+                    android:textColor="#FFF"
+                    android:textSize="65sp" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000" />
+
+                <Button
+                    style="@style/placares"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@null"
+                    android:onClick="clickQuadrado"
+                    android:tag="quadrado3"
+                    android:textColor="#FFF"
+                    android:textSize="65sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#000" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#000" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#000" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#000" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#000" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    style="@style/placares"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@null"
+                    android:onClick="clickQuadrado"
+                    android:tag="quadrado4"
+                    android:textColor="#FFF"
+                    android:textSize="65sp" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000" />
+
+                <Button
+                    style="@style/placares"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@null"
+                    android:onClick="clickQuadrado"
+                    android:tag="quadrado5"
+                    android:textColor="#FFF"
+                    android:textSize="65sp" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000" />
+
+                <Button
+                    style="@style/placares"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@null"
+                    android:onClick="clickQuadrado"
+                    android:tag="quadrado6"
+                    android:textColor="#FFF"
+                    android:textSize="65sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#000" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#000" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#000" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#000" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="#000" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    style="@style/placares"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@null"
+                    android:onClick="clickQuadrado"
+                    android:tag="quadrado7"
+                    android:textColor="#FFF"
+                    android:textSize="65sp" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000" />
+
+                <Button
+                    style="@style/placares"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@null"
+                    android:onClick="clickQuadrado"
+                    android:tag="quadrado8"
+                    android:textColor="#FFF"
+                    android:textSize="65sp" />
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent"
+                    android:background="#000" />
+
+                <Button
+                    style="@style/placares"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@null"
+                    android:onClick="clickQuadrado"
+                    android:tag="quadrado9"
+                    android:textColor="#FFF"
+                    android:textSize="65sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/prxJogada"
+            style="@style/placares"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/jogada"
+            style="@style/placares"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="@string/sua_vez"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnNovoJogo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@layout/layout_botao"
+            android:onClick="newGame"
+            android:text="@string/novo_jogo"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btnConectar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@layout/layout_botao"
+            android:text="@string/conectar"
+            android:textColor="#FFF"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

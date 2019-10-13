@@ -1,0 +1,235 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/fundo_gradient"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="1dp"
+        android:layout_marginRight="30dp" >
+
+        <TableRow>
+
+            <Button
+                style="@style/placares"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@null"
+                android:tag="quadrado1"
+                android:text="T"
+                android:textColor="#FFF"
+                android:textSize="100sp" />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="fill_parent"
+                android:background="#000" />
+
+            <Button
+                style="@style/placares"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@null"
+                android:tag="quadrado2"
+                android:text="I"
+                android:textColor="#FFF"
+                android:textSize="100sp" />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="fill_parent"
+                android:background="#000" />
+
+            <Button
+                style="@style/placares"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@null"
+                android:tag="quadrado3"
+                android:text="C"
+                android:textColor="#FFF"
+                android:textSize="100sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#000" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                style="@style/placares"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@null"
+                android:tag="quadrado4"
+                android:text="T"
+                android:textColor="#FFF"
+                android:textSize="100sp" />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="fill_parent"
+                android:background="#000" />
+
+            <Button
+                style="@style/placares"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@null"
+                android:tag="quadrado5"
+                android:text="A"
+                android:textColor="#FFF"
+                android:textSize="100sp" />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="fill_parent"
+                android:background="#000" />
+
+            <Button
+                style="@style/placares"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@null"
+                android:tag="quadrado6"
+                android:text="C"
+                android:textColor="#FFF"
+                android:textSize="100sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#000" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                style="@style/placares"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@null"
+                android:tag="quadrado7"
+                android:text="T"
+                android:textColor="#FFF"
+                android:textSize="100sp" />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="fill_parent"
+                android:background="#000" />
+
+            <Button
+                style="@style/placares"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@null"
+                android:tag="quadrado8"
+                android:text="O"
+                android:textColor="#FFF"
+                android:textSize="100sp" />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="fill_parent"
+                android:background="#000" />
+
+            <Button
+                style="@style/placares"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@null"
+                android:tag="quadrado9"
+                android:text="E"
+                android:textColor="#FFF"
+                android:textSize="100sp" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:gravity="center">
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Player vs Android" 
+            android:textColor="#FFF"
+            android:background="@null"/>
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Player vs Player" 
+            android:textColor="#FFF"/>
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth" 
+            android:textColor="#FFF"/>
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Sair" 
+            android:textColor="#FFF"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:MyApp="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:icon="@drawable/ic_menu_moreoverflow_normal_holo_dark"
+        android:orderInCategory="100"
+        MyApp:showAsAction="ifRoom"
+        android:title="@string/opcoes">
+
+        <!-- "file" submenu -->
+        <menu>
+            <item
+                android:id="@+id/ficar_visivel"
+                android:orderInCategory="100"
+                android:title="@string/ficar_visivel"/>
+            <item
+                android:id="@+id/devices_pareados"
+                android:orderInCategory="100"
+                android:title="@string/dispositivos"/>
+                        
+            <item
+                android:id="@+id/instrucoes"
+                android:orderInCategory="100"
+                android:title="@string/instrucoes"/>
+            
+            <item
+                android:id="@+id/compartilhar"
+                android:orderInCategory="100"
+                android:title="@string/compartilhar"/>
+        </menu>
+    </item>
+
+</menu>

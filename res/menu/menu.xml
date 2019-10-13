@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:MyApp="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:icon="@drawable/ic_menu_share"
+        android:id="@+id/compartilharPlayer"
+        android:orderInCategory="100"
+        MyApp:showAsAction="always"
+        android:title="@string/compartilhar"/>
+
+</menu>
